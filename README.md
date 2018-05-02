@@ -1,11 +1,11 @@
 <h1> Professional contact page with some jobs already done. </h1>
 <br/><br/>
-<div>
-<p>Home Page</p>
-<img src="home.png" float="left"></div>
-<div>
-<p text-align="center">Contato</p>
-<img src="contato.png"float="right"></div>
-<div>
-<p>Galeria</p>
-<img src="galeria.png"float="right"></div>
+
+<p><strong>Home Page<strong></p>
+<img src="home.png"></div>
+
+<p><strong>Contato</strong></p>
+<img src="contato.png">
+
+<p><strong>Galeria</strong></p>
+<img src="galeria.png">
