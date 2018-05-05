@@ -6,6 +6,27 @@
         <meta charset="UTF-8">
     
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rell="stylesheet" type="text/css" href="normalize.css"/>
+        <!-- //carousel -->
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="jquery.gallerie.js"></script> 
+<link rel="stylesheet" type="text/css" href="gallerie.css"/>
+<link rel="stylesheet" type="text/css" href="gallerie-effects.css"/>
+
+ <script type="text/javascript">
+$(document).ready(function(){
+	$('#gallery').gallerie();
+});
+</script>
+
+<style> 
+	
+	#gallery {
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
 
     </head>
 
@@ -29,7 +50,7 @@
                         <div id="menu">
                                 <a class="ativo" href="index.html">Home</a>
                                
-                                <a class="ativo" href="hobbies.html">Galeria</a>
+                                <a class="ativo" href="galeria.html">Galeria</a>
                                 <a class="ativo" href="jobs.html">Jobs</a>
                                 <a class="ativo" href="contato.html">Contato</a>
                         </div>
@@ -1273,13 +1294,20 @@
                 </g>
               </svg>
            
-              <div id="area-principal">
-                    <div id="postagem">
-                       <h2 id="titulo">Follow me =)</h2>
+              <div id="area-principal3">
+                    <div id="postagem3">
+                       <h2 id="titulo">Jobs:</h2>
                        <br/>
                       
-                       <spam id="data-postagem">Computer Engineer Student | Full Stack Developer</spam>
-                       
+                       <spam id="data-postagem"></spam>
+                      <!-- //carrossel de fotos -->
+                       <div id="gallery">
+                        <a class="efect" href="imagens/cadastro.png"><img id="efect" src="imagens/thumbs/cadastro.png"/></a>
+                        <a class="efect" href="imagens/cadastro_sou_convidado.png"><img id="efect"src="imagens/thumbs/cadastro_sou_convidado.png"/></a>
+                        <a class="efect" href="imagens/bemcasados_telainicial.png"><img id="efect" src="imagens/thumbs/bemcasados_telainicial.png"/></a>
+                        <a class="efect" href="imagens/bemcasados_telainicial.png"><img id="efect" src="imagens/thumbs/bemcasados_telainicial.png"/></a>
+                        </div> 
+                      <!-- fim do carrossel -->
                     </div>
                     </div>
 
