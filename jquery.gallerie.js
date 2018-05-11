@@ -54,7 +54,8 @@
 				// listbox thumbs
 				$thumbItem = $('<li></li>')
 							.append(
-								$('<a />').prop({
+							
+								$('<a/>').prop({
 									href: $imageLink.prop('href')
 								}).append(
 									$('<img/>').prop({
@@ -274,7 +275,7 @@
 					thumbboxTriggerWidth: 0.10,
 					thumbboxSpeed: 0.5,
 					imageEvent: 'click',
-					elem: 'a',
+					elem: '.track',
 					wrapAround: true
 				};
 				
