@@ -10,8 +10,8 @@
     <li>Json</li>
     <li>Bootstrap and more.</li>
 </ul>
-<p><a href="https://gabrielalmeida07.github.io/my_blog-/">Click here</a> to access the page.
-</p>
+<h2><a href="https://gabrielalmeida07.github.io/my_blog-/">Click here</a> to access the page.
+</h2>
 
 
 
