@@ -29,7 +29,6 @@ footer{
 }
 
 /* ID's */
-
 #img{
    
     height: 300px;
@@ -97,6 +96,25 @@ footer{
       
     }
     
+    #area-principal4{
+        width: 50%;       
+        height: 350px;
+       
+        position:absolute;top: 400.9px;z-index:2;
+        
+        border:1px solid #eeeeee;
+       text-align: center;
+       margin-left: 25%;
+       background-color: #fff;
+    }
+    #postagem4{
+        background-color: #fff;
+    
+        width: 100%;
+        height: 100%;
+    }
+       
+
     #postagem{
         background-color: #fff;
     
@@ -119,7 +137,7 @@ footer{
 
     width: 100%;
     height: 100%;
-    margin-top: -20px;
+    /* margin-top: -10px; */
 
 }
     #data-postagem{
@@ -130,6 +148,12 @@ footer{
     }
     #titulo{
         padding-top: 20px;
+    }
+    #titulo1{
+        padding-top: 10px;
+    }
+    #titulo4{
+       padding-top:10px;
     }
     #menu {
        
@@ -149,7 +173,9 @@ footer{
        margin-top: 317px;
 
     }
-   
+   #git{
+       text-decoration:none;
+   }
    
     /* Classes */
 
